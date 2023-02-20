@@ -1,0 +1,17 @@
+// to find 2nd highest among n
+#include<stdio.h>
+int main()
+{
+	int a,b,highest;
+	printf("Enter a numbers\n");
+	scanf("%d %d",&a,&b);
+	if(a>b)
+{
+	highest=a;
+}
+else
+{
+	highest=b;
+}
+printf("%d is highest number",highest);
+}
